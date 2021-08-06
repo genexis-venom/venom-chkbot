@@ -29,7 +29,7 @@ function GetStr($string, $start, $end)
 
 ////////////////////////////===[Randomizing Details Api]
 
-$get = file_get_contents('https://js.stripe.com');
+$get = file_get_contents('https://api.stripe.com');
 preg_match_all("(\"first\":\"(.*)\")siU", $get, $matches1);
 $name = $matches1[1][0];
 preg_match_all("(\"last\":\"(.*)\")siU", $get, $matches1);
@@ -39,7 +39,7 @@ $email = $matches1[1][0];
 preg_match_all("(\"address\":\"(.*)\")siU", $get, $matches1);
 $address = $matches1[1][0];
 preg_match_all("(\"street address\":\"(.*)\")siU", $get, $matches1);
-$street address= $matches1[1][0];
+$street = $matches1[1][0];
 preg_match_all("(\"city\":\"(.*)\")siU", $get, $matches1);
 $city = $matches1[1][0];
 preg_match_all("(\"state\":\"(.*)\")siU", $get, $matches1);
