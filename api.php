@@ -55,7 +55,7 @@ $country = $matches1[1][0];
 
 $ch = curl_init();
 $url = 'https://api.stripe.com/v1/payment_methods'
-curl_setopt($ch, CURLOPT_URL, $https://api.stripe.com/v1/payment_methods);
+curl_setopt($ch, CURLOPT_URL, $url;
 curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
 curl_setopt($ch, CURLOPT_HEADER, 0);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
