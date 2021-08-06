@@ -62,7 +62,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 'accept:  application/json',
 'accept-encoding: gzip, deflate, br', 
 'content-type: application/x-www-form-urlencoded
-'origin: https://js.stripe.com,
+'origin: https://js.stripe.com',
 'referer: https://js.stripe.com/v3/elements-inner-card-23d3fc08bfcc3ed7076439904dff2292.html',
 'sec-fetch-dest: empty',
 'sec-fetch-mode: cors',
