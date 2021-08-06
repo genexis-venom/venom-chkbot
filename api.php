@@ -26,14 +26,6 @@ function GetStr($string, $start, $end)
   return $str[0];
 }
 
-function rebootproxys()
-{
-  $proxySocks = file("proxy.txt");
-  $myproxy = rand(0, sizeof($proxySocks) - 1);
-  $proxySocks = $proxySocks[$myproxy];
-  return $proxySocks;
-}
-$poxySocks4 = rebootproxys();
 
 ////////////////////////////===[Randomizing Details Api]
 
